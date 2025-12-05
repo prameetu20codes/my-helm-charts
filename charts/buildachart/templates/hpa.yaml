@@ -1,3 +1,4 @@
+# harness.io/skip-file-for-deploy
 {{- if .Values.autoscaling.enabled }}
 apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
